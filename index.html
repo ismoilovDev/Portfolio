@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!------- WebSite Icon ---------->
+    <link rel="icon" type="image/png" href="imgs/solvent.png">
+
+    <!------- Box Icons ---------->
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Codystar&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+    <!------- WebSite Icon ---------->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>AbbosDev</title>
+</head>
+
+<body>
+
+    <!----{ Home }----->
+    <div class="main-home">
+        <div class="home">
+            <div id="particles-js"></div>
+
+            <!-- Navbar -->
+            <nav>
+                <div class="navbar">
+                    <div class="logo">
+                        <img src="imgs/solvent-green.png" alt="logo">
+                    </div>
+                    <div class="nav-element">
+                        <div class="music-control">
+                            <i class='bx bx-pause' id="icon"></i>
+                        </div>
+                        <audio id="myMusic" loop autoplay>
+                            <source src="music/OK.m4a" type="audio/mp3">
+                        </audio>
+                        <div class="nav-toggle">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- Home Text -->
+            <div class="home-text">
+                <div class="title">
+                    <h1>Ismoilov Abbos </h1>
+                </div>
+                <div class="home-typing">
+                    <p><span class="animate"></span></p>
+                </div>
+                <div class="portfo-icon">
+                    <ul>
+                        <li>
+                            <a href="https://github.com/ismoilovDev?tab=repositories" target="_blank">
+                                <i class='bx bxl-codepen'></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/ismoilovDev?tab=repositories" target="_blank">
+                                <i class='bx bxl-github'></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/abbos-ismoilov-b4153721b/" target="_blank">
+                                <i class='bx bxl-twitter'></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/abbos-ismoilov-b4153721b/" target="_blank">
+                                <i class='bx bxl-google-plus'></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.pinterest.com/pin/50102614594430314/" target="_blank">
+                                <i class='bx bxl-pinterest-alt'></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Change-language -->
+            <div class="change-language">
+                <p class="active">ENG</p>
+                <p>UZ</p>
+            </div>
+            <!-- Mouse Anime -->
+            <div class="mouse-anime">
+                <span></span>
+            </div>
+            <!-- Social Icons -->
+            <div class="social-icons">
+                <ul>
+                    <li class="facebook">
+                        <a href="https://www.instagram.com/ismoilov1602/" target="_blank">
+                            <i class='bx bxl-facebook'></i>
+                        </a>
+                    </li>
+                    <li class="telegram">
+                        <a href="https://t.me/A_Coder_uz" target="_blank">
+                            <i class='bx bxl-telegram'></i>
+                        </a>
+                    </li>
+                    <li class="linkedIn">
+                        <a href="https://www.linkedin.com/in/abbos-ismoilov-b4153721b/" target="_blank">
+                            <i class='bx bxl-linkedin'></i>
+                        </a>
+                    </li>
+                    <li class="intagram">
+                        <a href="https://www.instagram.com/ismoilov1602/" target="_blank">
+                            <i class='bx bxl-instagram'></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Sidebar -->
+            <div class="sidebar">
+                <div class="sidebar-content">
+                    <!-- Sidebar Logo -->
+                    <div class="sidebar-logo">
+                        <img src="imgs/solvent-green.png" alt="logo">
+                    </div>
+                    <!-- Sidebar Ul -->
+                    <div class="sidebar-ul">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <i class='bx bxs-home'></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#about">
+                                    <i class='bx bxs-user-detail'></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#resume">
+                                    <i class='bx bxs-user-rectangle'></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#portfolio">
+                                    <i class='bx bxs-briefcase'></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#contact">
+                                    <i class='bx bxs-envelope'></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- Sidebar Switch -->
+                    <div class="switch">
+                        <i class='bx bx-sun'></i>
+                        <i class='bx bx-moon active'></i>
+                    </div>
+                </div>
+            </div>
+            <div class="close-sidebar">
+
+            </div>
+        </div>
+    </div>
+
+    <!----{ About }----->
+    <section class="about" id="about">
+        <div class="section-header">
+            <h1 class="section-header-text one">About</h1>
+        </div>
+        <div class="container">
+            <div class="section-row">
+                <div class="section-title">
+                    <h2>About Me</h2>
+                    <div class="title-decaration">
+                        <span></span>
+                    </div>
+                </div>
+
+                <!-- About Box -->
+                <div class="about-box hover"data-aos="fade-left" data-aos-delay="300" data-aos-duration="1000">
+                    <div class="about-box-description">
+                        <div class="about-img">
+                            <img src="imgs/my-photo.jpg">
+                        </div>
+                        <div class="about-text">
+                            <h3>Ismoilov Abbos</h3>
+                            <span>
+                                <i class='bx bxs-map'></i> Uzbekistan, Nukus
+                            </span>
+                            <p>
+                                Assalomu Alaykum! I talented front end {React} developer with academic background and experience. I can apply my knowledge and skills for continuous improvement. I would like to bring my skill and service to your company.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="about-box-icons">
+                        <div class="about-box-icon">
+                            <div class="about-results-icon">
+                                <i class='bx bxs-award'></i>
+                            </div>
+                            <div class="about-results-text">
+                                <p>1 Years Job</p>
+                                <span>Experience</span>
+                            </div>
+                        </div>
+                        <div class="about-box-icon">
+                            <div class="about-results-icon">
+                                <i class='bx bxs-certification'></i>
+                            </div>
+                            <div class="about-results-text">
+                                <p>25+ Projects</p>
+                                <span>Completed</span>
+                            </div>
+                        </div>
+                        <div class="about-box-icon">
+                            <div class="about-results-icon">
+                                <i class='bx bxs-face-mask'></i>
+                            </div>
+                            <div class="about-results-text">
+                                <p>Freelancer</p>
+                                <span>Available</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section-title">
+                    <h2 class="section-title-mini">My Interests</h2>
+                    <div class="title-decaration">
+                        <span></span>
+                    </div>
+                </div>
+
+                <!-- Interest Box -->
+                <div class="interest-box hover" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
+                    <div class="interest-card-box">
+                        <div class="interest-card">
+                            <div class="interest-card-icon">
+                                <i class='bx bxs-book'></i>
+                            </div>
+                            <div class="interest-card-text">
+                                <p>Books</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="interest-card-box">
+                        <div class="interest-card">
+                            <div class="interest-card-icon">
+                                <i class='bx bxs-rocket'></i>
+                            </div>
+                            <div class="interest-card-text">
+                                <p>Space</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="interest-card-box">
+                        <div class="interest-card">
+                            <div class="interest-card-icon">
+                                <i class='bx bx-map-pin'></i>
+                            </div>
+                            <div class="interest-card-text">
+                                <p>Travelling</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="interest-card-box">
+                        <div class="interest-card">
+                            <div class="interest-card-icon">
+                                <i class='bx bx-photo-album'></i>
+                            </div>
+                            <div class="interest-card-text">
+                                <p>Photos</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="interest-card-box">
+                        <div class="interest-card">
+                            <div class="interest-card-icon">
+                                <i class='bx bxs-movie-play'></i>
+                            </div>
+                            <div class="interest-card-text">
+                                <p>Movies</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="interest-card-box">
+                        <div class="interest-card">
+                            <div class="interest-card-icon">
+                                <i class='bx bxs-devices'></i>
+                            </div>
+                            <div class="interest-card-text">
+                                <p>Devices</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!----{ Resume }----->
+    <section class="resume" id="resume">
+        <div class="section-header">
+            <h1 class="section-header-text two">Resume</h1>
+        </div>
+        <div class="container">
+            <div class="section-row">
+                <div class="section-title">
+                    <h2>Resume</h2>
+                    <div class="title-decaration">
+                        <span></span>
+                    </div>
+                </div>
+
+                <!-- Education -->
+                <div class="edu-items hover" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300">
+                    <div class="edu-box-item">
+                        <div class="item-title">
+                            <h4>Gradution</h4>
+                            <span><i class='bx bxs-calendar'></i> 2017 - 2019 | High school </span>
+                        </div>
+                        <div class="item-text">
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem commodi ipsum incidunt
+                                delectus, saepe doloribus! Voluptatem, laborum voluptate natus temporibus eaque
+                                excepturi sit! Totam facere dolorum commodi.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="edu-box-item">
+                        <div class="item-title">
+                            <h4>Bechelor</h4>
+                            <span><i class='bx bxs-calendar'></i> 2019 - Peresent | Computer engineering</span>
+                        </div>
+                        <div class="item-text">
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem commodi ipsum incidunt
+                                delectus, saepe doloribus! Voluptatem, laborum voluptate natus temporibus eaque
+                                excepturi sit! Totam facere dolorum commodi.
+                            </p>
+                        </div>
+                    </div>
+                    <h4 class="exper-title"><span></span> Experience <span></span></h4>
+                    <div class="edu-box-item">
+                        <div class="item-title">
+                            <h4>Javohir's Front End Course</h4>
+                            <span><i class='bx bxs-calendar'></i> 2021, June | Peresent </span>
+                        </div>
+                        <div class="item-text">
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem commodi ipsum incidunt
+                                delectus, saepe doloribus! Voluptatem, laborum voluptate natus temporibus eaque
+                                excepturi sit! Totam facere dolorum commodi.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mini-title">
+                    <h2><span></span> Skill <span></span></h2>
+                </div>
+
+                <!-- Skills -->
+                <div class="skills-box">
+                    <div class="skills">
+                        <div class="skill">
+                            <div class="skill-name">HTML <i class='bx bxl-html5'></i></div>
+                            <div class="skill-bar">
+                                <div class="skill-per" per="90"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill">
+                            <div class="skill-name">CSS <i class='bx bxl-css3'></i></div>
+                            <div class="skill-bar">
+                                <div class="skill-per" per="80"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill">
+                            <div class="skill-name">Sass <i class='bx bxl-sass'></i></div>
+                            <div class="skill-bar">
+                                <div class="skill-per" per="70"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill">
+                            <div class="skill-name">JavaScript <i class='bx bxl-javascript'></i></div>
+                            <div class="skill-bar">
+                                <div class="skill-per" per="78"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill">
+                            <div class="skill-name">JQuery <i class='bx bxl-jquery'></i></div>
+                            <div class="skill-bar">
+                                <div class="skill-per" per="68"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill">
+                            <div class="skill-name">React <i class='bx bxl-react'></i></div>
+                            <div class="skill-bar">
+                                <div class="skill-per" per="65"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!----{ Portfolio }----->
+    <section class="portfolio" id="portfolio">
+        <div class="section-header">
+            <h1 class="section-header-text three">Portfolio</h1>
+        </div>
+        <div class="section-title">
+            <h2>Portfolio</h2>
+            <div class="title-decaration">
+                <span></span>
+            </div>
+        </div>
+
+        <div class="wrapper">
+
+            <!-- filter Items -->
+            <nav>
+                <div class="items">
+                    <span class="item active" data-name="all">All</span>
+                    <span class="item" data-name="site">Site</span>
+                    <span class="item" data-name="app">App</span>
+                    <span class="item" data-name="game">Game</span>
+                </div>
+            </nav>
+            <!-- filter Images -->
+            <div class="gallery">
+                <div class="image" data-name="app">
+                    <a href="https://reactjs-weather-app-abbos.netlify.app/" target="_blank">
+                        <div class="image-content">
+                            <img src="imgs/projects/react-weather-app.png">
+                            <div class="image-discription">
+                                <h4> - React Weathet App</h4>
+                                <span>Html | Css | React | {API}</span>
+                                <p>
+                                    A web application created using the Open Weather API in HTML, Css and React freamwork. Responsive design and background changes depending on the weather. Only the city name must be entered correctly :)
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="image" data-name="app">
+                    <a href="https://github.com/ismoilovDev/React-Movie-App" target="_blank">
+                        <div class="image-content">
+                            <img src="imgs/projects/Movie-app.png">
+                            <div class="image-discription">
+                                <h4> - React Movie App</h4>
+                                <span>Html | Css | React | {API}</span>
+                                <p>
+                                    Creative Movie application. Reactda was made using The MovieDB API. Information about films and series in various genres and directions, actors in the film, premiere dates and tiels can also be seen. The convenient side is that you can sort out trendy and old movies and series in different genres.
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="image" data-name="site">
+                    <a href="https://folio-site-abbos.netlify.app/" target="_blank">
+                        <div class="image-content">
+                            <img src="imgs/projects/folio-site.png">
+                            <div class="image-discription">
+                                <h4> - Folio Web Site</h4>
+                                <span>Html | Css | JS | JQuery</span>
+                                <p>
+                                    A creative photo website with a choice of black and white backgrounds. Contact and several other sections are available.
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="image" data-name="app">
+                    <a href="https://github.com/ismoilovDev/React-Js-Music-app" target="_blank">
+                        <div class="image-content">
+                            <img src="imgs/projects/react-music-app.png">
+                            <div class="image-discription">
+                                <h4> - React Nasheed Player</h4>
+                                <span>Html | Css | React </span>
+                                <p>
+                                    Nasheed player made in React. Without API and code left in github profile. You can use it yourself by adding more nasheed or song.
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="image" data-name="site">
+                    <a href="https://glint-site.netlify.app/" target="_blank">
+                        <div class="image-content">
+                            <img src="imgs/projects/glint-site.png">
+                            <div class="image-discription">
+                                <h4> - Glint Portfolio Site</h4>
+                                <span>Html | Css | JS | JQuery </span>
+                                <p>
+                                    Full resposive portfolio site for UI Designer. The site features experiences and developed projects and descriptions given by celebrities and blogs and brands they have created.
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="image" data-name="game">
+                    <a href="https://helloworldgame.netlify.app/" target="_blank">
+                        <div class="image-content">
+                            <img src="imgs/projects/game-site.png">
+                            <div class="image-discription">
+                                <h4> - Card Game</h4>
+                                <span>Html | Css | JS</span>
+                                <p>
+                                    A simple but popular card game created with Vanilla JS. Without excessive styles and more attention to js part. Play and enjoy that game.
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="image" data-name="site">
+                    <a href="https://tasty-site.netlify.app/" target="_blank">
+                        <div class="image-content">
+                            <img src="imgs/projects/tasty-site.png">
+                            <div class="image-discription">
+                                <h4> - Tasty Restaurant Web Site</h4>
+                                <span>Html | Css | JS </span>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate neque suscipit
+                                    quis distinctio. Culpa nulla, possimus accusamus corporis quaerat iste!
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="image" data-name="app">
+                    <a href="https://react-burger-builder-abbos.netlify.app/" target="_blank">
+                        <div class="image-content">
+                            <img src="imgs/projects/burger-app.png">
+                            <div class="image-discription">
+                                <h4> - React Burger Builder App</h4>
+                                <span>Html | Css | React</span>
+                                <p>
+                                    A great application for burger lovers. You can make a convenient side burger the way you want. The price of the burger depends on the ingredients you add!
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="image" data-name="site">
+                    <a href="https://metro-site.netlify.app/" target="_blank">
+                        <div class="image-content">
+                            <img src="imgs/projects/metro-site.png" alt="">
+                            <div class="image-discription">
+                                <h4> - Metro Web Site</h4>
+                                <span>Html | Css | JS </span>
+                                <p>
+                                    Technology-oriented W-commerce site. The site features trendy and best-selling devices. Fully responsive design. The slider isn’t perfect because the downside is my previous work.
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="image" data-name="app">
+                    <a href="https://weather-app-abbos.netlify.app/" target="_blank">
+                        <div class="image-content">
+                            <img src="imgs/projects/JS-weather.png">
+                            <div class="image-discription">
+                                <h4> - JavaScript Weather App</h4>
+                                <span>Html | Css | Js | {API}</span>
+                                <p>
+                                    The Weather application is only developed in javascript using the OpenWeather API. Responsive.
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- fullscreen img preview box -->
+        <div class="preview-box">
+            <div class="details">
+                <span class="title">Image Category: <p></p></span>
+                <span class="icon fas fa-times"></span>
+            </div>
+            <div class="image-box"><img src="" alt=""></div>
+        </div>
+        <div class="shadow"></div>
+    </section>
+
+    <!----{ Contact }----->
+    <section class="contact" id="contact">
+        <div class="contact-main">
+            <div class="section-title">
+                <h2>Contact</h2>
+                <div class="title-decaration">
+                    <span></span>
+                </div>
+            </div>
+            <div class="container">
+                <div class="section-row">
+                    <div class="sent-messege">
+                        <div class="tanishuv">
+                            <div class="name">
+                                <label for="name">Name*</label>
+                                <input type="text" id="name">
+                            </div>
+                            <div class="email">
+                                <label for="email">Email*</label>
+                                <input type="email" id="email">
+                            </div>
+                        </div>
+                        <div class="massege">
+                            <label for="massege">Messege*</label>
+                            <textarea id="messege" cols="30" rows="10"></textarea>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-icons">
+                <div class="tele">
+                    <a href="https://t.me/A_Coder_uz" target="_blank">
+                        <i class='bx bxl-telegram'></i>
+                    </a>
+                    <p>Telegram</p>
+                </div>
+                <div class="phone">
+                    <a>
+                        <i class='bx bxs-phone'></i>
+                    </a>
+                    <p>+998906621602</p>
+                </div>
+                <div class="e-mail" target="_blank">
+                    <a href="https://ismoilovabbos1602@gmail.com">
+                        <i class='bx bx-mail-send' ></i>
+                    </a>
+                    <p>Email</p>
+                </div>
+            </div>
+        </div>
+        <div class="video-container">
+            <div class="video-dark-bg"></div>
+            <video autoplay loop muted width="100%">
+                <source src="video/video-bg.mp4" type="video/mp4">
+            </video>
+        </div>
+    </section>
+
+
+    <!----{ Loading Animation }---->
+    <section class="loading-anime" id="loading-anime">
+        <div class="loader">
+            <span style="--i:1;"></span>
+            <span style="--i:2;"></span>
+            <span style="--i:3;"></span>
+            <span style="--i:4;"></span>
+            <span style="--i:5;"></span>
+            <span style="--i:6;"></span>
+            <span style="--i:7;"></span>
+            <span style="--i:8;"></span>
+            <span style="--i:9;"></span>
+            <span style="--i:10;"></span>
+            <span style="--i:11;"></span>
+            <span style="--i:12;"></span>
+            <span style="--i:13;"></span>
+            <span style="--i:14;"></span>
+            <span style="--i:15;"></span>
+            <span style="--i:16;"></span>
+            <span style="--i:17;"></span>
+            <span style="--i:18;"></span>
+            <span style="--i:19;"></span>
+            <span style="--i:20;"></span>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="Js/particles/particles.js"></script>
+    <script src="Js/particles/app.js"></script>
+    <script src="Js/script.js"></script>
+</body>
+
+</html>
